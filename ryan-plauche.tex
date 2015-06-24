@@ -1,0 +1,76 @@
+\documentclass[10pt, letterpaper]{moderncv}
+\moderncvtheme[grey]{banking}
+\usepackage[scale=.85]{geometry}
+\usepackage{enumitem}
+
+\name{Ryan}{Plauche}
+\email{ryan.plauche@gmail.com}
+\social[github]{plauche}
+
+\begin{document}
+
+\maketitle
+
+	\section{Experience}
+  \cventry[.8em]{03/2016--Present}{Software Engineer}{Kubos}{Denton, TX}{}
+  {
+    \begin{itemize}[rightmargin=30mm]
+      \item Initial engineer hired to develop open source satellite flight software framework. Source can be found here https://github.com/kubos/kubos.
+      \item Contributed to software architecture allowing development on systems running in either Linux or RTOS environments.
+      \item Investigated the usage of Rust, led the team in migrating from C; created tools to allow usage of both languages in existing framework.
+      \item Managed hardware and software infrastructure to allow for remote and shared usage of in-house hardware.
+      \item Spoke at multiple industry conferences about software framework; published one paper.
+    \end{itemize}
+  }
+	\cventry[.8em]{12/2014--03/2016}{Systems Administrator}{UNT System, IT Shared Services}{Denton, TX}{}
+	{
+		\begin{itemize}[rightmargin=30mm]
+			\item Served as a Linux systems administrator providing infrastructure and application support to teams hosting services widely used by the UNT System campuses.
+      \item Provided the final tier of troubleshooting for infrastructure problems which often spanned multiple software layers or systems.
+      \item Reworked a critical Python-based piece of the UNT enrollment pipeline to fix existing issues and improve future extend-ability.
+			\item Developed a self-service portal for clients using the Symfony PHP framework. This portal gives clients access to important information about their sites and commonly used tools.
+      \item Facilitated weekly teaching/support meetings with clients. These meetings have also served to strengthen relationships with clients and as a result provided other avenues for assisting clients.
+		\end{itemize}
+	}
+
+	\cventry[.8em]{4/2013--11/2014}{Senior Applications Engineer}{Navigation Solutions}{Plano, TX}{}
+	{
+		\begin{itemize}[rightmargin=30mm]
+			\item Member of the software team that supported Hertz's Linux-based NeverLost 6. Used C++ to develop features such as Restaurant Guide, Feature Demo, custom video player functionality and an early product demo.
+      \item Conceived and prototyped a HTML browser application in Qt which allowed communications with other custom software. The prototype was developed further and became the tool for running third party apps.
+			\item Helped solve a critical file system corruption problem which broke hibernation functionality.
+      \item Developed XML validation scripts in Python to increase efficiency in custom UI development.
+		\end{itemize}
+	}
+
+  \pagebreak
+
+	\cventry[.8em]{1/2010--4/2013}{Software Engineer}{Datascan, LP}{Carrollton, TX}{}
+	{
+		\begin{itemize}[rightmargin=30mm]
+			\item Key member of the team that created and maintained Datascan's inventory scanner platforms. Developed functionality needed to move customers away from legacy platform. Helped integrate wireless communications into legacy codebase. All application software was written in C.
+			\item Assisted in an effort to port the U-Boot bootloader onto scanner platform. Specifically ported the SD card driver from Linux kernel to U-Boot.
+			\item Conceived and prototyped an informational status bar. Developed further into a major application feature.
+			\item Worked with production line workers to improve repair processes. Wrote software in Python which automated recovery of broken hardware.
+			\item Inherited responsibility for backend server software written in C++/VB6. Added communications encryption, improved load simulator and improved scalability.
+		\end{itemize}
+	}
+
+
+  \section{Publications}
+  \label{sec:highlights}
+
+  \cvline{}%
+  {
+    \small R. Plauche, Building Modern Cross-Platform Flight Software for Small Satellites,
+    \emph{AIAA/USU Conference on Small Satellites}
+    (2017)
+    \href{https://digitalcommons.usu.edu/smallsat/2017/all2017/204/}
+    {\color{color2}\homepagesymbol~Conference Proceedings}
+  }
+
+
+	\section{Education}
+	\cventry{2005--2010}{Bachelor's Degree in Software Engineering}{University of Texas at Dallas}{Richardson, TX}{}{}
+
+\end{document}
